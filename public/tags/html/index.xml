@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Html on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/html/</link>
+    <description>Recent content in Html on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/html/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Tìm Hiểu JavaScript nên đặt ở đâu ?</title>
+      <link>http://localhost:1313/post/2020/javascript-where-to/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-where-to/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-where-to&#34;&gt;1. JavaScript: Where To?&lt;/h3&gt;&#xA;&lt;p&gt;Khi phát triển web, một câu hỏi phổ biến là: &lt;strong&gt;&amp;ldquo;Nên đặt JavaScript ở đâu trong HTML?&amp;rdquo;&lt;/strong&gt;. JavaScript có thể được nhúng trực tiếp vào trang HTML thông qua ba cách chính:&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

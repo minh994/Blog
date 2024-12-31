@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Shortcodes on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/shortcodes/</link>
+    <description>Recent content in Shortcodes on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Fri, 24 Nov 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/shortcodes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lightbi Custom Shortcodes</title>
+      <link>http://localhost:1313/post/2020/gioi_thieu_java/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/gioi_thieu_java/</guid>
+      <description>&lt;p&gt;Java và JavaScript là hai ngôn ngữ lập trình nổi tiếng trong thế giới công nghệ, nhưng chúng lại hoàn toàn khác biệt về mục đích, cách sử dụng và môi trường làm việc. Bài viết này sẽ giúp bạn phân biệt rõ ràng giữa hai ngôn ngữ và hiểu cách chúng được ứng dụng trong thực tế.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

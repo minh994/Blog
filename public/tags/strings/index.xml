@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Strings on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/strings/</link>
+    <description>Recent content in Strings on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/strings/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript String Methods</title>
+      <link>http://localhost:1313/post/2020/javascript-string-methods/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-string-methods/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-string-methods&#34;&gt;1. Giới Thiệu về JavaScript String Methods&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript cung cấp rất nhiều phương thức để thao tác với chuỗi. Các phương thức này cho phép bạn xử lý và thay đổi chuỗi, từ việc tìm kiếm, thay thế, tách chuỗi đến việc thay đổi định dạng chuỗi. Dưới đây là một số phương thức chuỗi cơ bản và phổ biến trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript String Search</title>
+      <link>http://localhost:1313/post/2020/javascript-string-search/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-string-search/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-string-search&#34;&gt;1. Giới Thiệu về JavaScript String Search&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, việc tìm kiếm chuỗi con trong một chuỗi lớn là một trong những thao tác cơ bản và phổ biến. JavaScript cung cấp một số phương thức để thực hiện công việc này, từ việc kiểm tra sự tồn tại của chuỗi con cho đến việc tìm vị trí của nó. Dưới đây là các phương thức tìm kiếm chuỗi trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Strings</title>
+      <link>http://localhost:1313/post/2020/javascript-strings/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-strings/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-strings&#34;&gt;1. Giới Thiệu về JavaScript Strings&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;String&lt;/strong&gt; là một kiểu dữ liệu đại diện cho một chuỗi các ký tự. Chuỗi có thể bao gồm chữ cái, số, hoặc các ký tự đặc biệt. Chúng được sử dụng để lưu trữ và thao tác với văn bản.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

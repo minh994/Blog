@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Blog_Aboul</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Mon, 30 Dec 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Variables Khai Báo và Sử Dụng</title>
+      <link>http://localhost:1313/post/2020/javascript-variables/</link>
+      <pubDate>Mon, 30 Dec 2024 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-variables/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-variables-khái-niệm-cơ-bản&#34;&gt;1. JavaScript Variables: Khái Niệm Cơ Bản&lt;/h3&gt;&#xA;&lt;p&gt;Biến trong JavaScript là một không gian lưu trữ dữ liệu có thể thay đổi trong suốt quá trình thực thi chương trình. JavaScript cho phép khai báo biến bằng ba từ khóa chính: &lt;code&gt;var&lt;/code&gt;, &lt;code&gt;let&lt;/code&gt;, và &lt;code&gt;const&lt;/code&gt;.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Array Iteration</title>
+      <link>http://localhost:1313/post/2020/javascript-array-iteration/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-array-iteration/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-lặp-qua-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Lặp qua Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Lặp qua mảng là một trong những thao tác phổ biến khi làm việc với JavaScript. Các phương thức lặp qua mảng giúp bạn dễ dàng thao tác với từng phần tử trong mảng, từ việc hiển thị thông tin, xử lý dữ liệu, đến việc tạo ra các mảng mới.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Array Methods</title>
+      <link>http://localhost:1313/post/2020/javascript-array-methods/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-array-methods/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-array-methods&#34;&gt;1. Giới Thiệu về JavaScript Array Methods&lt;/h3&gt;&#xA;&lt;p&gt;Mảng trong JavaScript là một kiểu dữ liệu dùng để lưu trữ một tập hợp các giá trị có thể có cùng hoặc khác kiểu dữ liệu. JavaScript cung cấp rất nhiều phương thức hữu ích để thao tác với mảng. Dưới đây là một số phương thức phổ biến khi làm việc với mảng trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Array Search</title>
+      <link>http://localhost:1313/post/2020/javascript-array-search/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-array-search/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-tìm-kiếm-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Tìm Kiếm Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Tìm kiếm mảng là một thao tác quan trọng khi làm việc với dữ liệu trong JavaScript. Để tìm kiếm phần tử trong mảng, JavaScript cung cấp một số phương thức hữu ích như &lt;code&gt;indexOf()&lt;/code&gt;, &lt;code&gt;includes()&lt;/code&gt;, &lt;code&gt;find()&lt;/code&gt;, và &lt;code&gt;findIndex()&lt;/code&gt;. Mỗi phương thức này có các tính năng và cách sử dụng khác nhau.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Arrays</title>
+      <link>http://localhost:1313/post/2020/javascript-arrays/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-arrays/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Mảng trong JavaScript là một kiểu dữ liệu đặc biệt dùng để lưu trữ một tập hợp các giá trị. Mảng có thể chứa các giá trị cùng kiểu hoặc khác kiểu, và có thể có kích thước thay đổi linh hoạt trong quá trình thực thi chương trình.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Date Objects</title>
+      <link>http://localhost:1313/post/2020/javascript-date-objects/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-date-objects/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-date-objects&#34;&gt;1. Giới Thiệu về JavaScript Date Objects&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;code&gt;Date&lt;/code&gt; là một đối tượng tích hợp sẵn giúp bạn làm việc với ngày và giờ. Bạn có thể tạo và thao tác với các đối tượng &lt;code&gt;Date&lt;/code&gt; để lấy thông tin về thời gian hiện tại, so sánh ngày tháng, cũng như chuyển đổi giữa các định dạng ngày giờ khác nhau.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Sorting Arrays</title>
+      <link>http://localhost:1313/post/2020/javascript-sorting-arrays/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-sorting-arrays/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-sắp-xếp-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Sắp Xếp Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Sắp xếp mảng là một thao tác phổ biến trong lập trình. JavaScript cung cấp một số phương thức để sắp xếp mảng như &lt;code&gt;sort()&lt;/code&gt;, và bạn có thể tùy chỉnh các phương thức này để sắp xếp các mảng theo nhu cầu của mình, từ số học đến chuỗi hay các đối tượng phức tạp.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript String Methods</title>
+      <link>http://localhost:1313/post/2020/javascript-string-methods/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-string-methods/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-string-methods&#34;&gt;1. Giới Thiệu về JavaScript String Methods&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript cung cấp rất nhiều phương thức để thao tác với chuỗi. Các phương thức này cho phép bạn xử lý và thay đổi chuỗi, từ việc tìm kiếm, thay thế, tách chuỗi đến việc thay đổi định dạng chuỗi. Dưới đây là một số phương thức chuỗi cơ bản và phổ biến trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript String Search</title>
+      <link>http://localhost:1313/post/2020/javascript-string-search/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-string-search/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-string-search&#34;&gt;1. Giới Thiệu về JavaScript String Search&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, việc tìm kiếm chuỗi con trong một chuỗi lớn là một trong những thao tác cơ bản và phổ biến. JavaScript cung cấp một số phương thức để thực hiện công việc này, từ việc kiểm tra sự tồn tại của chuỗi con cho đến việc tìm vị trí của nó. Dưới đây là các phương thức tìm kiếm chuỗi trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Strings</title>
+      <link>http://localhost:1313/post/2020/javascript-strings/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-strings/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-strings&#34;&gt;1. Giới Thiệu về JavaScript Strings&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;String&lt;/strong&gt; là một kiểu dữ liệu đại diện cho một chuỗi các ký tự. Chuỗi có thể bao gồm chữ cái, số, hoặc các ký tự đặc biệt. Chúng được sử dụng để lưu trữ và thao tác với văn bản.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>The new Date() Constructor</title>
+      <link>http://localhost:1313/post/2020/the-new-date-constructor/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/the-new-date-constructor/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-new-date-constructor&#34;&gt;1. Giới Thiệu về &lt;code&gt;new Date()&lt;/code&gt; Constructor&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, Date là một đối tượng tích hợp sẵn dùng để làm việc với ngày và giờ. Bạn có thể sử dụng new Date() constructor để tạo một đối tượng Date mới. Khi gọi new Date(), bạn có thể tạo ra đối tượng Date theo nhiều cách khác nhau, tùy vào đối số được truyền vào.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript const Khai Báo Biến Hằng</title>
+      <link>http://localhost:1313/post/2020/javascript-const/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-const/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-const-khái-niệm-cơ-bản&#34;&gt;1. JavaScript &lt;code&gt;const&lt;/code&gt;: Khái Niệm Cơ Bản&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;const&lt;/code&gt; là một từ khóa trong JavaScript được dùng để khai báo các biến mà giá trị của chúng không thể thay đổi sau khi đã được gán. Được giới thiệu trong ES6, &lt;code&gt;const&lt;/code&gt; giúp tạo ra các biến hằng (constant) trong mã của bạn, giúp bảo vệ giá trị của biến khỏi sự thay đổi không mong muốn.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Data Types</title>
+      <link>http://localhost:1313/post/2020/javascript-data-types/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-data-types/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-data-types-khái-niệm&#34;&gt;1. JavaScript Data Types: Khái Niệm&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript hỗ trợ hai loại kiểu dữ liệu chính: &lt;strong&gt;Primitive (nguyên thủy)&lt;/strong&gt; và &lt;strong&gt;Non-Primitive (phi nguyên thủy)&lt;/strong&gt;. Kiểu dữ liệu nguyên thủy là những kiểu dữ liệu không thể thay đổi, trong khi kiểu dữ liệu phi nguyên thủy là các đối tượng có thể thay đổi.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Display Objects</title>
+      <link>http://localhost:1313/post/2020/javascript-display-objects/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-display-objects/</guid>
+      <description>&lt;h3 id=&#34;1-hiển-thị-đối-tượng-trong-javascript&#34;&gt;1. Hiển Thị Đối Tượng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, một đối tượng là một tập hợp các cặp key-value. Để hiển thị một đối tượng, bạn có thể sử dụng nhiều cách khác nhau tùy thuộc vào ngữ cảnh và yêu cầu của chương trình.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Events</title>
+      <link>http://localhost:1313/post/2020/javascript-events/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-events/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-events&#34;&gt;1. Giới Thiệu về JavaScript Events&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;events&lt;/strong&gt; (sự kiện) là các hành động hoặc sự thay đổi xảy ra trong ứng dụng mà bạn có thể xử lý. Các sự kiện thường được liên kết với các yếu tố DOM (Document Object Model) như nút nhấn, di chuyển chuột, gõ phím, và nhiều hành động khác.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Object Constructors</title>
+      <link>http://localhost:1313/post/2020/javascript-object-constructors/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-object-constructors/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-object-constructors&#34;&gt;1. Giới Thiệu về JavaScript Object Constructors&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, một &lt;strong&gt;Object Constructor&lt;/strong&gt; là một hàm đặc biệt dùng để tạo đối tượng. Constructors cho phép bạn tạo ra các đối tượng với các thuộc tính và phương thức chung. Bạn có thể tạo ra nhiều đối tượng cùng loại mà không cần phải viết lại mã cho mỗi đối tượng.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Object Methods</title>
+      <link>http://localhost:1313/post/2020/javascript-object-methods/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-object-methods/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-object-methods-khái-niệm&#34;&gt;1. JavaScript Object Methods: Khái Niệm&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;Object methods&lt;/strong&gt; là các phương thức được định nghĩa trong một đối tượng. Những phương thức này cho phép bạn thực hiện các hành động hoặc thao tác liên quan đến dữ liệu trong đối tượng. Một đối tượng trong JavaScript có thể chứa các thuộc tính (properties) và các phương thức (methods).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Operators</title>
+      <link>http://localhost:1313/post/2020/javascript-arithmetic/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-arithmetic/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-operators-khái-niệm-cơ-bản&#34;&gt;1. JavaScript Operators: Khái Niệm Cơ Bản&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;toán tử (operators)&lt;/strong&gt; là các ký hiệu hoặc từ khóa dùng để thực hiện các phép toán hoặc các thao tác trên dữ liệu. JavaScript cung cấp nhiều loại toán tử khác nhau, bao gồm các toán tử số học, so sánh, gán, logic, và nhiều loại khác.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Operators</title>
+      <link>http://localhost:1313/post/2020/javascript-operators/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-operators/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-operators-khái-niệm-cơ-bản&#34;&gt;1. JavaScript Operators: Khái Niệm Cơ Bản&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;toán tử (operators)&lt;/strong&gt; là các ký hiệu hoặc từ khóa dùng để thực hiện các phép toán hoặc các thao tác trên dữ liệu. JavaScript cung cấp nhiều loại toán tử khác nhau, bao gồm các toán tử số học, so sánh, gán, logic, và nhiều loại khác.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Syntax Cú Pháp Cơ Bản</title>
+      <link>http://localhost:1313/post/2020/javascript-syntax/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-syntax/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-syntax-là-gì&#34;&gt;1. JavaScript Syntax: Là Gì?&lt;/h3&gt;&#xA;&lt;p&gt;Cú pháp JavaScript xác định cách thức viết mã JavaScript đúng để trình duyệt hoặc môi trường JavaScript có thể hiểu và thực thi. Các quy tắc cú pháp cơ bản bao gồm cách khai báo biến, cách viết các biểu thức, lệnh điều kiện, vòng lặp, và các hàm.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Statements Các Lệnh Cơ Bản</title>
+      <link>http://localhost:1313/post/2020/javascript-statements/</link>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-statements/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-statements-là-gì&#34;&gt;1. JavaScript Statements: Là Gì?&lt;/h3&gt;&#xA;&lt;p&gt;Một lệnh trong JavaScript là một câu lệnh thực thi một hành động cụ thể. Lệnh có thể là một biểu thức (expression) hoặc một lệnh điều kiện, vòng lặp, khai báo biến, v.v.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Giới Thiệu Java Collections Framework</title>
+      <link>http://localhost:1313/post/2020/java-collections-framework/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/java-collections-framework/</guid>
+      <description>&lt;h3 id=&#34;1-java-collections-framework-là-gì&#34;&gt;1. Java Collections Framework là gì?&lt;/h3&gt;&#xA;&lt;p&gt;Java Collections Framework (JCF) là một tập hợp các lớp và giao diện trong Java, được sử dụng để lưu trữ và quản lý dữ liệu theo cách hiệu quả. Nó hỗ trợ các cấu trúc dữ liệu như List, Set, Map và Queue, giúp đơn giản hóa việc thao tác trên dữ liệu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Output Các Phương Thức Hiển Thị Kết Quả</title>
+      <link>http://localhost:1313/post/2020/javascript-output/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-output/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-output-là-gì&#34;&gt;1. JavaScript Output: Là Gì?&lt;/h3&gt;&#xA;&lt;p&gt;JavaScript cung cấp nhiều cách khác nhau để hiển thị kết quả. Dưới đây là các phương thức phổ biến nhất.&lt;/p&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;2-documentwrite&#34;&gt;2. &lt;code&gt;document.write()&lt;/code&gt;&lt;/h3&gt;&#xA;&lt;p&gt;Chức năng: Ghi nội dung trực tiếp vào tài liệu HTML.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Promises Là Gì?</title>
+      <link>http://localhost:1313/post/2020/javascript-promises-/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-promises-/</guid>
+      <description>&lt;h3 id=&#34;1-promises-là-gì&#34;&gt;1. Promises là gì?&lt;/h3&gt;&#xA;&lt;p&gt;Promises là một tính năng mạnh mẽ trong JavaScript, được sử dụng để xử lý các tác vụ bất đồng bộ. Một Promise đại diện cho một giá trị có thể có sẵn ngay bây giờ, trong tương lai, hoặc không bao giờ.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Tìm Hiểu JavaScript nên đặt ở đâu ?</title>
+      <link>http://localhost:1313/post/2020/javascript-where-to/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-where-to/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-where-to&#34;&gt;1. JavaScript: Where To?&lt;/h3&gt;&#xA;&lt;p&gt;Khi phát triển web, một câu hỏi phổ biến là: &lt;strong&gt;&amp;ldquo;Nên đặt JavaScript ở đâu trong HTML?&amp;rdquo;&lt;/strong&gt;. JavaScript có thể được nhúng trực tiếp vào trang HTML thông qua ba cách chính:&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java và JavaScript Sự Khác Biệt và Ứng Dụng</title>
+      <link>http://localhost:1313/post/2020/gioi_thieu_java/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/gioi_thieu_java/</guid>
+      <description>&lt;h3 id=&#34;1-java-ngôn-ngữ-đa-nền-tảng&#34;&gt;1. Java: Ngôn Ngữ Đa Nền Tảng&lt;/h3&gt;&#xA;&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được thiết kế để &amp;ldquo;viết một lần, chạy mọi nơi&amp;rdquo; (Write Once, Run Anywhere). Điều này có nghĩa là mã Java có thể chạy trên bất kỳ nền tảng nào hỗ trợ Java Virtual Machine (JVM).&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note 1</title>
+      <link>http://localhost:1313/notes/2020/change/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/notes/2020/change/</guid>
+      <description>&lt;p&gt;Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note 2</title>
+      <link>http://localhost:1313/notes/2020/change2/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/notes/2020/change2/</guid>
+      <description>&lt;p&gt;Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Note 3</title>
+      <link>http://localhost:1313/notes/2020/change3/</link>
+      <pubDate>Sat, 01 Feb 2020 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/notes/2020/change3/</guid>
+      <description>&lt;p&gt;Journaling is not just a little thing you do to pass the time, to write down your memories—though it can be—it’s a strategy that has helped brilliant, powerful and wise people become better at what they do.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/layouts/partials/footer_custom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/layouts/partials/footer_custom/</guid>
+      <description>&lt;!--&#xD;&#xA;If you want to include any custom html just before &lt;/body&gt;, put it in this file.&#xD;&#xA;Or you can delete these file if you don&#39;t need it.&#xD;&#xA;--&gt;&#xD;&#xA;&lt;!-- for example, you could include some js libraries:&#xD;&#xA;&lt;script src=&#34;https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.js&#34; integrity=&#34;sha256-HdIuWBZj4eftihsoDCJoMYjZi6aNVaw7YlUpzKT3ZxI=&#34; crossorigin=&#34;anonymous&#34;&gt;&lt;/script&gt;&#xD;&#xA;--&gt;</description>
+    </item>
+    <item>
+      <title></title>
+      <link>http://localhost:1313/layouts/partials/head_custom/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/layouts/partials/head_custom/</guid>
+      <description>&lt;!--&#xD;&#xA;If you want to include any custom html just before &lt;/head&gt;, put it in this file.&#xD;&#xA;Or you can delete these file if you don&#39;t need it.&#xD;&#xA;--&gt;&#xD;&#xA;&lt;!-- for example, you could insert this custom css, which makes the bigimg not stretch:&#xD;&#xA;&lt;style&gt;&#xD;&#xA;.intro-header.big-img, .intro-header.big-img  .big-img-transition {&#xD;&#xA;  -webkit-background-size: contain !important;&#xD;&#xA;  -moz-background-size: contain !important;&#xD;&#xA;  background-size: contain !important;&#xD;&#xA;  -o-background-size: contain !important;&#xD;&#xA;  background-color: lightgrey;&#xD;&#xA;}&#xD;&#xA;&lt;/style&gt;&#xD;&#xA;--&gt;&#xD;&#xA;&lt;!-- or you could include some additional css libraries:&#xD;&#xA;&lt;link rel=&#34;stylesheet&#34; href=&#34;https://cdnjs.cloudflare.com/ajax/libs/vis/4.19.1/vis.css&#34; integrity=&#34;sha256-I1UoFd33KHIydu88R9owFaQWzwkiZV4hXXug5aYaM28=&#34; crossorigin=&#34;anonymous&#34; /&gt;&#xD;&#xA;--&gt;</description>
+    </item>
+  </channel>
+</rss>

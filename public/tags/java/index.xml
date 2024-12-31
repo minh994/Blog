@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Java on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/java/</link>
+    <description>Recent content in Java on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/java/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới Thiệu Java Collections Framework</title>
+      <link>http://localhost:1313/post/2020/java-collections-framework/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/java-collections-framework/</guid>
+      <description>&lt;h3 id=&#34;1-java-collections-framework-là-gì&#34;&gt;1. Java Collections Framework là gì?&lt;/h3&gt;&#xA;&lt;p&gt;Java Collections Framework (JCF) là một tập hợp các lớp và giao diện trong Java, được sử dụng để lưu trữ và quản lý dữ liệu theo cách hiệu quả. Nó hỗ trợ các cấu trúc dữ liệu như List, Set, Map và Queue, giúp đơn giản hóa việc thao tác trên dữ liệu.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>Java và JavaScript Sự Khác Biệt và Ứng Dụng</title>
+      <link>http://localhost:1313/post/2020/gioi_thieu_java/</link>
+      <pubDate>Fri, 24 Nov 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/gioi_thieu_java/</guid>
+      <description>&lt;h3 id=&#34;1-java-ngôn-ngữ-đa-nền-tảng&#34;&gt;1. Java: Ngôn Ngữ Đa Nền Tảng&lt;/h3&gt;&#xA;&lt;p&gt;Java là một ngôn ngữ lập trình hướng đối tượng, được thiết kế để &amp;ldquo;viết một lần, chạy mọi nơi&amp;rdquo; (Write Once, Run Anywhere). Điều này có nghĩa là mã Java có thể chạy trên bất kỳ nền tảng nào hỗ trợ Java Virtual Machine (JVM).&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

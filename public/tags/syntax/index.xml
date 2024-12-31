@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Syntax on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/syntax/</link>
+    <description>Recent content in Syntax on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/syntax/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Syntax Cú Pháp Cơ Bản</title>
+      <link>http://localhost:1313/post/2020/javascript-syntax/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-syntax/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-syntax-là-gì&#34;&gt;1. JavaScript Syntax: Là Gì?&lt;/h3&gt;&#xA;&lt;p&gt;Cú pháp JavaScript xác định cách thức viết mã JavaScript đúng để trình duyệt hoặc môi trường JavaScript có thể hiểu và thực thi. Các quy tắc cú pháp cơ bản bao gồm cách khai báo biến, cách viết các biểu thức, lệnh điều kiện, vòng lặp, và các hàm.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

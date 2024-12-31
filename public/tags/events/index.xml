@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Events on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/events/</link>
+    <description>Recent content in Events on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/events/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Events</title>
+      <link>http://localhost:1313/post/2020/javascript-events/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-events/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-events&#34;&gt;1. Giới Thiệu về JavaScript Events&lt;/h3&gt;&#xA;&lt;p&gt;Trong JavaScript, &lt;strong&gt;events&lt;/strong&gt; (sự kiện) là các hành động hoặc sự thay đổi xảy ra trong ứng dụng mà bạn có thể xử lý. Các sự kiện thường được liên kết với các yếu tố DOM (Document Object Model) như nút nhấn, di chuyển chuột, gõ phím, và nhiều hành động khác.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

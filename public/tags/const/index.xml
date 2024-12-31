@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Const on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/const/</link>
+    <description>Recent content in Const on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sat, 30 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/const/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript const Khai Báo Biến Hằng</title>
+      <link>http://localhost:1313/post/2020/javascript-const/</link>
+      <pubDate>Sat, 30 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-const/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-const-khái-niệm-cơ-bản&#34;&gt;1. JavaScript &lt;code&gt;const&lt;/code&gt;: Khái Niệm Cơ Bản&lt;/h3&gt;&#xA;&lt;p&gt;&lt;code&gt;const&lt;/code&gt; là một từ khóa trong JavaScript được dùng để khai báo các biến mà giá trị của chúng không thể thay đổi sau khi đã được gán. Được giới thiệu trong ES6, &lt;code&gt;const&lt;/code&gt; giúp tạo ra các biến hằng (constant) trong mã của bạn, giúp bảo vệ giá trị của biến khỏi sự thay đổi không mong muốn.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

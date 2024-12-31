@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Statements on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/statements/</link>
+    <description>Recent content in Statements on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Fri, 29 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/statements/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Statements Các Lệnh Cơ Bản</title>
+      <link>http://localhost:1313/post/2020/javascript-statements/</link>
+      <pubDate>Fri, 29 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-statements/</guid>
+      <description>&lt;h3 id=&#34;1-javascript-statements-là-gì&#34;&gt;1. JavaScript Statements: Là Gì?&lt;/h3&gt;&#xA;&lt;p&gt;Một lệnh trong JavaScript là một câu lệnh thực thi một hành động cụ thể. Lệnh có thể là một biểu thức (expression) hoặc một lệnh điều kiện, vòng lặp, khai báo biến, v.v.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

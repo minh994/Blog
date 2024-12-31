@@ -1,0 +1,84 @@
+baseURL = "https://lightbi-hugo-theme.netlify.app/"  # Địa chỉ URL cơ sở cho trang web
+DefaultContentLanguage = "en"  # Ngôn ngữ nội dung mặc định là tiếng Anh
+defaultContentLanguageInSubdir = false  # Không sử dụng thư mục con cho ngôn ngữ mặc định
+languageCode = "en-us"  # Mã ngôn ngữ cho tiếng Anh (Mỹ)
+title = "Blog_Aboul"  # Tiêu đề của trang web
+theme = "lightbi-hugo"  # Tên theme đang sử dụng
+metaDataFormat = "yaml"  # Định dạng metadata là YAML
+pygmentsStyle = "trac"  # Phong cách Pygments cho mã nguồn
+pygmentsCodefencesGuessSyntax = true  # Tự động đoán cú pháp cho code fences
+enableRobotsTXT = true  # Bật tệp robots.txt
+enableGitInfo = false  # Không bật thông tin Git
+summaryLength  = "30"  # Độ dài tóm tắt mặc định là 30 ký tự
+ignoreLogs = ['warning-goldmark-raw-html']  # Bỏ qua các log cảnh báo
+
+[pagination]
+pagerSize = 9  # Kích thước trang phân trang
+
+[Params]
+selfHosted = true  # Được lưu trữ tự động
+mainSections = ["post","posts"]  # Các phần chính của nội dung
+comments = false  # Tắt bình luận
+readingTime = false  # Tắt hiển thị thời gian đọc
+wordCount = false  # Tắt hiển thị số từ
+useHLJS = true  # Sử dụng Highlight.js cho mã nguồn
+socialShare = true  # Bật chia sẻ xã hội
+delayDisqus = true  # Trì hoãn Disqus
+showRelatedPosts = true  # Hiển thị bài viết liên quan
+summaryLength  = "9"  # Độ dài tóm tắt là 9 ký tự
+lunrSearch = true  # Bật tìm kiếm Lunr
+gcse = false  # Tắt Google Custom Search Engine
+lastmod = false  # Tắt hiển thị ngày sửa đổi
+rss = false  # Tắt RSS
+pagination = "9"  # Số lượng bài viết trên mỗi trang
+hideAuthor = false  # Hiện tác giả
+description="Blog_Aboul mang tới cho bạn kiến thức "  # Mô tả trang web
+previewCardImagePlacement = "bottom"  # Vị trí hình ảnh thẻ xem trước
+showPostImage = false  # Tắt hiển thị hình ảnh bài viết
+
+[Params.Author]
+  name = "Minh Le"  # Tên tác giả
+  website = "https://www.binovarghese.com/"  # Website của tác giả
+  authorInfo = "Đang là sinh viên năm 4 tại trường đại học công nghệ TP.HCM (HUTECH)"  # Thông tin về tác giả
+  authorPostImage = "/img/author-post-img.jpg"  # Hình ảnh của tác giả
+  email = "minh732002@gmail.com"  # Email của tác giả
+  facebook = "username"  # Tên người dùng Facebook
+  instagram = "username"  # Tên người dùng Instagram
+  youtube = "user/username"  # Tên người dùng YouTube
+  twitter = "username"  # Tên người dùng Twitter
+  github = "username"  # Tên người dùng GitHub
+  telegram = "username"  # Tên người dùng Telegram
+
+
+
+[[menu.main]]
+    name = "Trang Chủ"  # Tên menu cho trang chính
+    url = "/"  # URL cho trang chính
+    weight = 1  # Trọng số cho menu
+
+[[menu.main]]
+    name = "Ghi chú"  # Tên menu cho ghi chú
+    url = "/notes/"  # URL cho ghi chú
+    weight = 2  # Trọng số cho menu
+
+[[menu.main]]
+    name = "Thẻ"  # Tên menu cho thẻ
+    url = "/tags/blog/"  # URL cho thẻ
+    weight = 3  # Trọng số cho menu
+
+[[menu.main]]
+    name = "Bộ sưu tập"  # Tên menu cho bộ sưu tập
+    url = "/collections/"  # URL cho bộ sưu tập
+    weight = 4  # Trọng số cho menu
+
+[[menu.main]]
+    name = "Giới thiệu"  # Tên menu cho trang giới thiệu
+    url = "/about/"  # URL cho trang giới thiệu
+    weight = 5  # Trọng số cho menu
+
+[sitemap]
+  changefreq = "monthly"  # Tần suất thay đổi sitemap
+  priority = 0.5  # Độ ưu tiên của sitemap
+  filename = "sitemap.xml"  # Tên file sitemapt
+
+  

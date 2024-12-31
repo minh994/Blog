@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Full Stack on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/full-stack/</link>
+    <description>Recent content in Full Stack on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/full-stack/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới thiệu về Lê Văn Minh</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/about/</guid>
+      <description>&lt;h3 id=&#34;giới-thiệu&#34;&gt;Giới Thiệu&lt;/h3&gt;&#xA;&lt;p&gt;Xin chào! Tôi là &lt;strong&gt;Lê Văn Minh&lt;/strong&gt;, một &lt;strong&gt;Full Stack Developer&lt;/strong&gt; với 4 năm học trong lĩnh vực công nghệ thông tin. Tôi đã và đang học tại trường &lt;strong&gt;Đại học Công Nghệ TP.HCM (HUTECH)&lt;/strong&gt; và hiện đang tìm kiếm cơ hội để phát triển sự nghiệp trong lĩnh vực phát triển phần mềm.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

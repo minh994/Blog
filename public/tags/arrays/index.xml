@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Arrays on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/arrays/</link>
+    <description>Recent content in Arrays on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/arrays/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Array Iteration</title>
+      <link>http://localhost:1313/post/2020/javascript-array-iteration/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-array-iteration/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-lặp-qua-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Lặp qua Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Lặp qua mảng là một trong những thao tác phổ biến khi làm việc với JavaScript. Các phương thức lặp qua mảng giúp bạn dễ dàng thao tác với từng phần tử trong mảng, từ việc hiển thị thông tin, xử lý dữ liệu, đến việc tạo ra các mảng mới.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Array Methods</title>
+      <link>http://localhost:1313/post/2020/javascript-array-methods/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-array-methods/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-javascript-array-methods&#34;&gt;1. Giới Thiệu về JavaScript Array Methods&lt;/h3&gt;&#xA;&lt;p&gt;Mảng trong JavaScript là một kiểu dữ liệu dùng để lưu trữ một tập hợp các giá trị có thể có cùng hoặc khác kiểu dữ liệu. JavaScript cung cấp rất nhiều phương thức hữu ích để thao tác với mảng. Dưới đây là một số phương thức phổ biến khi làm việc với mảng trong JavaScript.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Array Search</title>
+      <link>http://localhost:1313/post/2020/javascript-array-search/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-array-search/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-tìm-kiếm-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Tìm Kiếm Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Tìm kiếm mảng là một thao tác quan trọng khi làm việc với dữ liệu trong JavaScript. Để tìm kiếm phần tử trong mảng, JavaScript cung cấp một số phương thức hữu ích như &lt;code&gt;indexOf()&lt;/code&gt;, &lt;code&gt;includes()&lt;/code&gt;, &lt;code&gt;find()&lt;/code&gt;, và &lt;code&gt;findIndex()&lt;/code&gt;. Mỗi phương thức này có các tính năng và cách sử dụng khác nhau.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Arrays</title>
+      <link>http://localhost:1313/post/2020/javascript-arrays/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-arrays/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Mảng trong JavaScript là một kiểu dữ liệu đặc biệt dùng để lưu trữ một tập hợp các giá trị. Mảng có thể chứa các giá trị cùng kiểu hoặc khác kiểu, và có thể có kích thước thay đổi linh hoạt trong quá trình thực thi chương trình.&lt;/p&gt;</description>
+    </item>
+    <item>
+      <title>JavaScript Sorting Arrays</title>
+      <link>http://localhost:1313/post/2020/javascript-sorting-arrays/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-sorting-arrays/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-sắp-xếp-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Sắp Xếp Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Sắp xếp mảng là một thao tác phổ biến trong lập trình. JavaScript cung cấp một số phương thức để sắp xếp mảng như &lt;code&gt;sort()&lt;/code&gt;, và bạn có thể tùy chỉnh các phương thức này để sắp xếp các mảng theo nhu cầu của mình, từ số học đến chuỗi hay các đối tượng phức tạp.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

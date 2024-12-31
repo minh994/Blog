@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Sorting on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/sorting/</link>
+    <description>Recent content in Sorting on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/sorting/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>JavaScript Sorting Arrays</title>
+      <link>http://localhost:1313/post/2020/javascript-sorting-arrays/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/javascript-sorting-arrays/</guid>
+      <description>&lt;h3 id=&#34;1-giới-thiệu-về-sắp-xếp-mảng-trong-javascript&#34;&gt;1. Giới Thiệu về Sắp Xếp Mảng trong JavaScript&lt;/h3&gt;&#xA;&lt;p&gt;Sắp xếp mảng là một thao tác phổ biến trong lập trình. JavaScript cung cấp một số phương thức để sắp xếp mảng như &lt;code&gt;sort()&lt;/code&gt;, và bạn có thể tùy chỉnh các phương thức này để sắp xếp các mảng theo nhu cầu của mình, từ số học đến chuỗi hay các đối tượng phức tạp.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

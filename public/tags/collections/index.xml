@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Collections on Blog_Aboul</title>
+    <link>http://localhost:1313/tags/collections/</link>
+    <description>Recent content in Collections on Blog_Aboul</description>
+    <generator>Hugo</generator>
+    <language>en-us</language>
+    <managingEditor>minh732002@gmail.com (Minh Le)</managingEditor>
+    <webMaster>minh732002@gmail.com (Minh Le)</webMaster>
+    <lastBuildDate>Thu, 28 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/collections/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Giới Thiệu Java Collections Framework</title>
+      <link>http://localhost:1313/post/2020/java-collections-framework/</link>
+      <pubDate>Thu, 28 Dec 2023 00:00:00 +0000</pubDate><author>minh732002@gmail.com (Minh Le)</author>
+      <guid>http://localhost:1313/post/2020/java-collections-framework/</guid>
+      <description>&lt;h3 id=&#34;1-java-collections-framework-là-gì&#34;&gt;1. Java Collections Framework là gì?&lt;/h3&gt;&#xA;&lt;p&gt;Java Collections Framework (JCF) là một tập hợp các lớp và giao diện trong Java, được sử dụng để lưu trữ và quản lý dữ liệu theo cách hiệu quả. Nó hỗ trợ các cấu trúc dữ liệu như List, Set, Map và Queue, giúp đơn giản hóa việc thao tác trên dữ liệu.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

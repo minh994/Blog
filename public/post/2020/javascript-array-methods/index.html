@@ -1,0 +1,866 @@
+<!DOCTYPE html>
+<html lang="en" itemscope itemtype="http://schema.org/WebPage">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    
+<meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+
+
+<title>JavaScript Array Methods - Blog_Aboul</title>
+<meta name="description" content="Tìm hiểu các phương thức cơ bản và phổ biến khi làm việc với mảng trong JavaScript. Các phương thức này giúp bạn thao tác và quản lý mảng dễ dàng hơn.">
+
+<meta name="author" content="Minh Le"><script type="application/ld+json">
+{
+    "@context": "http://schema.org",
+    "@type": "WebSite",
+    "name": "Blog_Aboul",
+    
+    "url": "http:\/\/localhost:1313\/"
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Organization",
+  "name": "",
+  "url": "http:\/\/localhost:1313\/"
+  
+  
+  
+  
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [{
+        "@type": "ListItem",
+        "position": 1,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/",
+          "name": "home"
+        }
+    },{
+        "@type": "ListItem",
+        "position": 3,
+        "item": {
+          "@id": "http:\/\/localhost:1313\/post\/2020\/javascript-array-methods\/",
+          "name": "Java script array methods"
+        }
+    }]
+}
+</script><script type="application/ld+json">
+{
+  "@context": "http://schema.org",
+  "@type": "Article",
+  "author": {
+    "name" : "map[authorinfo:Đang là sinh viên năm 4 tại trường đại học công nghệ TP.HCM (HUTECH) authorpostimage:\/img\/author-post-img.jpg email:minh732002@gmail.com facebook:username github:username instagram:username name:Minh Le telegram:username twitter:username website:https:\/\/www.binovarghese.com\/ youtube:user\/username]"
+  },
+  "headline": "JavaScript Array Methods",
+  "description" : "Tìm hiểu các phương thức cơ bản và phổ biến khi làm việc với mảng trong JavaScript. Các phương thức này giúp bạn thao tác và quản lý mảng dễ dàng hơn.",
+  "inLanguage" : "en",
+  "wordCount":  733 ,
+  "datePublished" : "2023-12-31T00:00:00",
+  "dateModified" : "2023-12-31T00:00:00",
+  "image" : "http:\/\/localhost:1313\/",
+  "keywords" : [ "javascript, arrays, methods, blog" ],
+  "mainEntityOfPage" : "http:\/\/localhost:1313\/post\/2020\/javascript-array-methods\/",
+  "publisher" : {
+    "@type": "Organization",
+    "name" : "http:\/\/localhost:1313\/",
+    "logo" : {
+        "@type" : "ImageObject",
+        "url" : "http:\/\/localhost:1313\/",
+        "height" :  60 ,
+        "width" :  60
+    }
+  }
+}
+</script>
+
+<meta property="og:title" content="JavaScript Array Methods" />
+<meta property="og:description" content="Tìm hiểu các phương thức cơ bản và phổ biến khi làm việc với mảng trong JavaScript. Các phương thức này giúp bạn thao tác và quản lý mảng dễ dàng hơn.">
+<meta property="og:image" content="http://localhost:1313/img/posts/img-19.png" />
+<meta property="og:url" content="http://localhost:1313/post/2020/javascript-array-methods/" />
+<meta property="og:type" content="website" />
+<meta property="og:site_name" content="Blog_Aboul" />
+<link rel="apple-touch-icon" sizes="180x180" href=" http://localhost:1313/favicon/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/favicon/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/favicon/favicon-16x16.png">
+
+
+<meta name="generator" content="Hugo 0.140.1">
+<link rel="alternate" href="http://localhost:1313/index.xml" type="application/rss+xml" title="Blog_Aboul">
+<script src="http://localhost:1313/js/dark-mode.js"></script><script src="http://localhost:1313/vendor/lunr/lunr.min.js"></script><script src="http://localhost:1313/js/lunr-search.js" data-index="/search.json"></script><link rel="stylesheet" href="/style.min.css">
+
+
+
+
+
+
+
+ 
+
+<link href="/vendor/glightbox/css/glightbox.min.css" rel="stylesheet">
+
+
+<script  src="http://localhost:1313/vendor/glightbox/js/glightbox.min.js"></script>
+ 
+  </head>
+  <body>
+    
+<div class="container fixed-top mw-100">
+  <div class="row justify-content-center">
+    <div class="col-sm-12 col-md-12 col-lg-10 col-xl-10">
+
+      <nav class="navbar navbar-expand-lg navbar-light fixed-top p-0">
+        <div class="container">
+
+          <a class="navbar-brand fw-bold" href="http://localhost:1313/">Blog_Aboul</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+            <ul class="navbar-nav mb-2 mb-lg-0 align-items-baseline">
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Trang Chủ"
+                  href="/"> Trang Chủ</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Ghi chú"
+                  href="/notes/"> Ghi chú</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Thẻ"
+                  href="/tags/blog/"> Thẻ</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Bộ sưu tập"
+                  href="/collections/"> Bộ sưu tập</a>
+              </li>
+
+              
+              
+              
+
+              <li class="nav-item">
+                
+                
+                
+                
+                
+
+                <a class="nav-link " title="Giới thiệu"
+                  href="/about/"> Giới thiệu</a>
+              </li>
+
+              
+              
+
+
+                
+            
+
+            
+              <li class="nav-item nav-link">
+                <a id="dark-mode-toggle" class="bi bi-moon-stars" role="button"></a>
+              </li>
+
+              
+              
+              <li class="nav-item search-item">
+                <form id="search" class="search" role="search">
+                  <label for="search-input" class="bi bi-search search-icon"></label>
+                  <input type="search" id="search-input" class="search-input">
+                </form>
+              </li>
+              
+            </ul>
+
+            
+            <template id="search-heading" hidden data-results-none=""
+              data-results-one=""
+              data-results-many="">
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <h1 id="search-title" class="search-title"></h1>
+                </div>
+              </div>
+            </template>
+
+            <template id="search-result" hidden>
+              <div class="row">
+                <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 ">
+                  <article class="content post">
+                    <h2><a class="summary-title-link"></a></h2>
+                    <div class="post-entry"></div>
+                    <div class="read-more-section">
+                      <h6 class="text-muted link-underline">
+                        <a class="read-more-link">
+                          Đọc thêm
+                          <i class="bi bi-arrow-right"></i>
+                        </a>
+                      </h6>
+                    </div>
+                  </article>
+                </div>
+              </div>
+            </template>
+            
+          </div>
+        </div>
+      </nav>
+
+    </div>
+  </div>
+</div>
+    
+
+
+
+
+
+
+
+
+
+<header class="header-section ">
+
+  <div class="intro-header no-img mt-10">
+    <div class="container">
+      <div class="row justify-content-center">
+        
+        <div class="col-sm-12 col-md-12 col-lg-8 col-xl-8">
+          
+
+          
+          <div class="col-sm-12 col-md-12 col-lg-12 col-xl-12">
+            
+
+            <div class="post-heading">
+              
+
+              
+
+              
+              <h1 class="fw-semibold display-5 lh-1 mb-3"> 
+                JavaScript Array Methods
+                
+              </h1>
+              
+              
+
+              
+
+              
+              
+              <span class="post-meta">
+  <div class="row post-meta text-muted">
+    <div class="col-sm-12 col-md-6 px-0">
+      
+      
+  
+      
+      
+      
+      Minh Le |
+      
+      
+  
+      &nbsp; December 31, 2023
+    </div>
+
+  <div class="col-sm-12 col-md-6 text-sm-start text-md-end px-0">
+  
+
+  
+</div>
+
+  
+</div>
+</span>
+
+
+              
+              
+            </div>
+          </div>
+          
+        </div>
+        
+        
+      </div>
+      
+    </div>
+  </div>
+</header>
+
+
+
+    
+<div class="container" role="main">
+  <div class="row">
+
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      <article role="main" class="blog-post">
+        <h3 id="1-giới-thiệu-về-javascript-array-methods">1. Giới Thiệu về JavaScript Array Methods</h3>
+<p>Mảng trong JavaScript là một kiểu dữ liệu dùng để lưu trữ một tập hợp các giá trị có thể có cùng hoặc khác kiểu dữ liệu. JavaScript cung cấp rất nhiều phương thức hữu ích để thao tác với mảng. Dưới đây là một số phương thức phổ biến khi làm việc với mảng trong JavaScript.</p>
+<h3 id="2-các-phương-thức-cơ-bản-của-mảng">2. Các Phương Thức Cơ Bản của Mảng</h3>
+<h4 id="1-push---thêm-phần-tử-vào-cuối-mảng"><strong>1. push()</strong> - Thêm phần tử vào cuối mảng</h4>
+<p>Phương thức <code>push()</code> thêm một hoặc nhiều phần tử vào cuối mảng và trả về độ dài mới của mảng.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>];
+</span></span><span style="display:flex;"><span>fruits.push(<span style="color:#b84">&#34;orange&#34;</span>);
+</span></span><span style="display:flex;"><span>console.log(fruits); <span style="color:#998;font-style:italic">// [&#34;apple&#34;, &#34;banana&#34;, &#34;orange&#34;]
+</span></span></span></code></pre></div><h4 id="2-pop---loại-bỏ-phần-tử-cuối-cùng-của-mảng"><strong>2. pop()</strong> - Loại bỏ phần tử cuối cùng của mảng</h4>
+<p>Phương thức <code>pop()</code> loại bỏ phần tử cuối cùng của mảng và trả về phần tử đó.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> removed <span style="font-weight:bold">=</span> fruits.pop();
+</span></span><span style="display:flex;"><span>console.log(fruits); <span style="color:#998;font-style:italic">// [&#34;apple&#34;, &#34;banana&#34;]
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>console.log(removed); <span style="color:#998;font-style:italic">// &#34;orange&#34;
+</span></span></span></code></pre></div><h4 id="3-shift---loại-bỏ-phần-tử-đầu-tiên-của-mảng"><strong>3. shift()</strong> - Loại bỏ phần tử đầu tiên của mảng</h4>
+<p>Phương thức <code>shift()</code> loại bỏ phần tử đầu tiên của mảng và trả về phần tử đó.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> removed <span style="font-weight:bold">=</span> fruits.shift();
+</span></span><span style="display:flex;"><span>console.log(fruits); <span style="color:#998;font-style:italic">// [&#34;banana&#34;, &#34;orange&#34;]
+</span></span></span><span style="display:flex;"><span><span style="color:#998;font-style:italic"></span>console.log(removed); <span style="color:#998;font-style:italic">// &#34;apple&#34;
+</span></span></span></code></pre></div><h4 id="4-unshift---thêm-phần-tử-vào-đầu-mảng"><strong>4. unshift()</strong> - Thêm phần tử vào đầu mảng</h4>
+<p>Phương thức <code>unshift()</code> thêm một hoặc nhiều phần tử vào đầu mảng và trả về độ dài mới của mảng.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>];
+</span></span><span style="display:flex;"><span>fruits.unshift(<span style="color:#b84">&#34;apple&#34;</span>);
+</span></span><span style="display:flex;"><span>console.log(fruits); <span style="color:#998;font-style:italic">// [&#34;apple&#34;, &#34;banana&#34;, &#34;orange&#34;]
+</span></span></span></code></pre></div><h4 id="5-concat---kết-hợp-các-mảng"><strong>5. concat()</strong> - Kết hợp các mảng</h4>
+<p>Phương thức <code>concat()</code> dùng để kết hợp hai hoặc nhiều mảng lại với nhau và trả về một mảng mới.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> moreFruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;orange&#34;</span>, <span style="color:#b84">&#34;grape&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> allFruits <span style="font-weight:bold">=</span> fruits.concat(moreFruits);
+</span></span><span style="display:flex;"><span>console.log(allFruits); <span style="color:#998;font-style:italic">// [&#34;apple&#34;, &#34;banana&#34;, &#34;orange&#34;, &#34;grape&#34;]
+</span></span></span></code></pre></div><h4 id="6-join---kết-hợp-các-phần-tử-trong-mảng-thành-một-chuỗi"><strong>6. join()</strong> - Kết hợp các phần tử trong mảng thành một chuỗi</h4>
+<p>Phương thức <code>join()</code> nối tất cả các phần tử trong mảng thành một chuỗi, phân tách bằng dấu phân cách tùy chọn.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> result <span style="font-weight:bold">=</span> fruits.join(<span style="color:#b84">&#34;, &#34;</span>);
+</span></span><span style="display:flex;"><span>console.log(result); <span style="color:#998;font-style:italic">// &#34;apple, banana, orange&#34;
+</span></span></span></code></pre></div><h4 id="7-slice---lấy-một-phần-mảng"><strong>7. slice()</strong> - Lấy một phần mảng</h4>
+<p>Phương thức <code>slice()</code> trả về một bản sao của mảng con trong mảng ban đầu từ chỉ số start đến chỉ số end (không bao gồm phần tử tại chỉ số end).</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>, <span style="color:#b84">&#34;grape&#34;</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> slicedFruits <span style="font-weight:bold">=</span> fruits.slice(<span style="color:#099">1</span>, <span style="color:#099">3</span>);
+</span></span><span style="display:flex;"><span>console.log(slicedFruits); <span style="color:#998;font-style:italic">// [&#34;banana&#34;, &#34;orange&#34;]
+</span></span></span></code></pre></div><h4 id="8-splice---thêm-hoặc-xóa-phần-tử-trong-mảng"><strong>8. splice()</strong> - Thêm hoặc xóa phần tử trong mảng</h4>
+<p>Phương thức <code>splice()</code> cho phép bạn thêm hoặc xóa phần tử tại vị trí cụ thể trong mảng.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>];
+</span></span><span style="display:flex;"><span>fruits.splice(<span style="color:#099">1</span>, <span style="color:#099">1</span>, <span style="color:#b84">&#34;grape&#34;</span>, <span style="color:#b84">&#34;pear&#34;</span>);
+</span></span><span style="display:flex;"><span>console.log(fruits); <span style="color:#998;font-style:italic">// [&#34;apple&#34;, &#34;grape&#34;, &#34;pear&#34;, &#34;orange&#34;]
+</span></span></span></code></pre></div><p>Tham số thứ nhất là chỉ số bắt đầu, tham số thứ hai là số phần tử cần xóa, và các tham số còn lại là các phần tử mới sẽ được thêm vào.</p>
+<h4 id="9-foreach---duyệt-qua-tất-cả-các-phần-tử-trong-mảng"><strong>9. forEach()</strong> - Duyệt qua tất cả các phần tử trong mảng</h4>
+<p>Phương thức <code>forEach()</code> thực hiện một hàm callback cho mỗi phần tử trong mảng.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> fruits <span style="font-weight:bold">=</span> [<span style="color:#b84">&#34;apple&#34;</span>, <span style="color:#b84">&#34;banana&#34;</span>, <span style="color:#b84">&#34;orange&#34;</span>];
+</span></span><span style="display:flex;"><span>fruits.forEach(<span style="font-weight:bold">function</span>(fruit) {
+</span></span><span style="display:flex;"><span>  console.log(fruit);
+</span></span><span style="display:flex;"><span>});
+</span></span></code></pre></div><h4 id="10-map---tạo-mảng-mới-với-các-phần-tử-được-chuyển-đổi"><strong>10. map()</strong> - Tạo mảng mới với các phần tử được chuyển đổi</h4>
+<p>Phương thức <code>map()</code> tạo một mảng mới với các phần tử đã được chuyển đổi từ mảng ban đầu theo một hàm callback.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> squares <span style="font-weight:bold">=</span> numbers.map(<span style="font-weight:bold">function</span>(number) {
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> number <span style="font-weight:bold">*</span> number;
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>console.log(squares); <span style="color:#998;font-style:italic">// [1, 4, 9]
+</span></span></span></code></pre></div><h4 id="11-filter---lọc-mảng-dựa-trên-điều-kiện"><strong>11. filter()</strong> - Lọc mảng dựa trên điều kiện</h4>
+<p>Phương thức <code>filter()</code> tạo một mảng mới chỉ chứa các phần tử thỏa mãn điều kiện được cung cấp trong hàm callback.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> evenNumbers <span style="font-weight:bold">=</span> numbers.filter(<span style="font-weight:bold">function</span>(number) {
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> number <span style="font-weight:bold">%</span> <span style="color:#099">2</span> <span style="font-weight:bold">===</span> <span style="color:#099">0</span>;
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>console.log(evenNumbers); <span style="color:#998;font-style:italic">// [2, 4]
+</span></span></span></code></pre></div><h4 id="12-reduce---lấy-giá-trị-duy-nhất-từ-mảng"><strong>12. reduce()</strong> - Lấy giá trị duy nhất từ mảng</h4>
+<p>Phương thức <code>reduce()</code> áp dụng một hàm callback cho mỗi phần tử trong mảng (từ trái sang phải) để tạo ra một giá trị duy nhất.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> sum <span style="font-weight:bold">=</span> numbers.reduce(<span style="font-weight:bold">function</span>(accumulator, currentValue) {
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> accumulator <span style="font-weight:bold">+</span> currentValue;
+</span></span><span style="display:flex;"><span>}, <span style="color:#099">0</span>);
+</span></span><span style="display:flex;"><span>console.log(sum); <span style="color:#998;font-style:italic">// 10
+</span></span></span></code></pre></div><h4 id="13-find---tìm-phần-tử-đầu-tiên-thỏa-mãn-điều-kiện"><strong>13. find()</strong> - Tìm phần tử đầu tiên thỏa mãn điều kiện</h4>
+<p>Phương thức <code>find()</code> trả về phần tử đầu tiên trong mảng thỏa mãn điều kiện được xác định trong hàm callback.</p>
+<div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-javascript" data-lang="javascript"><span style="display:flex;"><span><span style="font-weight:bold">let</span> numbers <span style="font-weight:bold">=</span> [<span style="color:#099">1</span>, <span style="color:#099">2</span>, <span style="color:#099">3</span>, <span style="color:#099">4</span>, <span style="color:#099">5</span>];
+</span></span><span style="display:flex;"><span><span style="font-weight:bold">let</span> found <span style="font-weight:bold">=</span> numbers.find(<span style="font-weight:bold">function</span>(number) {
+</span></span><span style="display:flex;"><span>  <span style="font-weight:bold">return</span> number <span style="font-weight:bold">&gt;</span> <span style="color:#099">3</span>;
+</span></span><span style="display:flex;"><span>});
+</span></span><span style="display:flex;"><span>console.log(found); <span style="color:#998;font-style:italic">// 4
+</span></span></span></code></pre></div><div class="highlight"><pre tabindex="0" style="background-color:#fff;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-fallback" data-lang="fallback"></code></pre></div>
+      </article>
+    </div>
+  </div>
+
+  
+  <div class="row">
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1">
+      <hr class="m-0"/>
+    </div>
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-2">
+      
+      <div class="blog-tags">
+        
+        <a href="http://localhost:1313/tags/javascript/">javascript</a>
+        
+        <a href="http://localhost:1313/tags/arrays/">arrays</a>
+        
+        <a href="http://localhost:1313/tags/methods/">methods</a>
+        
+        <a href="http://localhost:1313/tags/blog/">blog</a>
+        
+      </div>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+      
+      <section id="social-share">
+        <div class="list-inline footer-links">
+          
+
+<div>
+  <p>Chia sẻ bên dưới nếu bạn thích.</p>
+</div>
+<div class="share-box" aria-hidden="true">
+  <ul class="share">
+    
+    <li>
+      <a href="//www.facebook.com/sharer/sharer.php?u=http%3a%2f%2flocalhost%3a1313%2fpost%2f2020%2fjavascript-array-methods%2f" target="_blank" title="Share on Facebook">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-facebook" viewBox="0 0 16 16">
+          <path
+            d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+        </svg>
+      </a>
+    </li>
+    
+    <li>
+      <a href="//twitter.com/share?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2020%2fjavascript-array-methods%2f&amp;text=JavaScript%20Array%20Methods&amp;via=map%5bauthorinfo%3a%c4%90ang%20l%c3%a0%20sinh%20vi%c3%aan%20n%c4%83m%204%20t%e1%ba%a1i%20tr%c6%b0%e1%bb%9dng%20%c4%91%e1%ba%a1i%20h%e1%bb%8dc%20c%c3%b4ng%20ngh%e1%bb%87%20TP.HCM%20%28HUTECH%29%20authorpostimage%3a%2fimg%2fauthor-post-img.jpg%20email%3aminh732002%40gmail.com%20facebook%3ausername%20github%3ausername%20instagram%3ausername%20name%3aMinh%20Le%20telegram%3ausername%20twitter%3ausername%20website%3ahttps%3a%2f%2fwww.binovarghese.com%2f%20youtube%3auser%2fusername%5d"
+        target="_blank" title="Share on Twitter">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-twitter-x" viewBox="0 0 16 16">
+          <path
+            d="M12.6.75h2.454l-5.36 6.142L16 15.25h-4.937l-3.867-5.07-4.425 5.07H.316l5.733-6.57L0 .75h5.063l3.495 4.633L12.601.75Zm-.86 13.028h1.36L4.323 2.145H2.865l8.875 11.633Z" />
+        </svg>
+      </a>
+    </li>
+
+
+    
+    <li>
+      <a href="https://www.linkedin.com/shareArticle?mini=true&amp;url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2020%2fjavascript-array-methods%2f&amp;title=JavaScript%20Array%20Methods"
+        target="_blank" title="Share on LinkedIn">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-linkedin" viewBox="0 0 16 16">
+          <path
+            d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z" />
+        </svg>
+      </a>
+    </li>
+
+    <li>
+      <a target="_blank" rel="noopener noreferrer" aria-label="share JavaScript Array Methods on reddit"
+        href="https://reddit.com/submit?url=http%3a%2f%2flocalhost%3a1313%2fpost%2f2020%2fjavascript-array-methods%2f&title=JavaScript%20Array%20Methods">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-reddit"
+          viewBox="0 0 16 16">
+          <path
+            d="M6.167 8a.831.831 0 0 0-.83.83c0 .459.372.84.83.831a.831.831 0 0 0 0-1.661zm1.843 3.647c.315 0 1.403-.038 1.976-.611a.232.232 0 0 0 0-.306.213.213 0 0 0-.306 0c-.353.363-1.126.487-1.67.487-.545 0-1.308-.124-1.671-.487a.213.213 0 0 0-.306 0 .213.213 0 0 0 0 .306c.564.563 1.652.61 1.977.61zm.992-2.807c0 .458.373.83.831.83.458 0 .83-.381.83-.83a.831.831 0 0 0-1.66 0z" />
+          <path
+            d="M16 8A8 8 0 1 1 0 8a8 8 0 0 1 16 0zm-3.828-1.165c-.315 0-.602.124-.812.325-.801-.573-1.9-.945-3.121-.993l.534-2.501 1.738.372a.83.83 0 1 0 .83-.869.83.83 0 0 0-.744.468l-1.938-.41a.203.203 0 0 0-.153.028.186.186 0 0 0-.086.134l-.592 2.788c-1.24.038-2.358.41-3.17.992-.21-.2-.496-.324-.81-.324a1.163 1.163 0 0 0-.478 2.224c-.02.115-.029.23-.029.353 0 1.795 2.091 3.256 4.669 3.256 2.577 0 4.668-1.451 4.668-3.256 0-.114-.01-.238-.029-.353.401-.181.688-.592.688-1.069 0-.65-.525-1.165-1.165-1.165z" />
+        </svg>
+      </a>
+    </li>
+
+    
+    
+
+
+    
+    <li>
+      <a href="whatsapp://send?text=http%3a%2f%2flocalhost%3a1313%2fpost%2f2020%2fjavascript-array-methods%2f&amp;description=JavaScript%20Array%20Methods" target="_blank" rel="noopener"
+        title="Share on WhatsApp">
+        <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" class="bi bi-whatsapp" viewBox="0 0 16 16">
+          <path
+            d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+        </svg>
+      </a>
+    </li>
+  </ul>
+</div>
+
+
+<p class="text-muted">Tôi mỉm cười khi nhìn thấy nó.</p>
+        </div>
+      </section>
+      
+    </div>
+
+    
+    
+    
+
+    <div class="col-lg-8 offset-lg-2 col-md-12 offset-md-1 pt-4">
+      
+      <ul class="list-group list-group-horizontal" style="flex-direction: row">
+        
+        <li class="list-group-item b-0 p-0">
+
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/2020/javascript-array-search/"
+            data-toggle="tooltip" data-placement="top" title="JavaScript Array Search">&larr;
+            Bài viết trước</a>
+        </li>
+        
+
+
+        
+        <li class="list-group-item ms-auto b-0 p-0">
+          <a type="button" class="btn btn-dark" role="button" href="http://localhost:1313/post/2020/javascript-array-iteration/"
+            data-toggle="tooltip" data-placement="top" title="JavaScript Array Iteration">Bài tiếp theo
+            &rarr;</a>
+        </li>
+        
+      </ul>
+      
+    </div>
+
+    <div class="col-lg-8 offset-lg-2 col-md-10 offset-md-1 pt-4">
+    </div>
+  </div>
+  
+</div>
+
+<div class="">
+  
+  
+  
+  
+  
+
+  
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12 col-md-12 mt-3">
+        <h3>Đọc thêm</h3>
+        <hr />
+      </div>
+
+      
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/post/2020/javascript-variables/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">JavaScript Variables Khai Báo và Sử Dụng</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  December 30, 2024
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Khám phá cách khai báo và sử dụng biến trong JavaScript. Bài viết này sẽ giúp bạn hiểu về các cách khai báo biến, phạm vi và các quy tắc liên quan đến biến trong JavaScript.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Đọc thêm <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/posts/img-35_hu4695154291527199449.png" alt="/img/posts/img-35.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/post/2020/javascript-array-iteration/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">JavaScript Array Iteration</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  December 31, 2023
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Hướng dẫn cách sử dụng các phương thức lặp qua mảng trong JavaScript, từ các phương thức đơn giản đến các phương thức mạnh mẽ như `forEach()`, `map()`, `filter()`, và `reduce()`.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Đọc thêm <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/posts/img-18_hu7550621328053528017.png" alt="/img/posts/img-18.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+
+      
+<div class="col-xl-4 col-lg-4 col-md-6 col-sm-6  mb-4">
+    <a href="http://localhost:1313/post/2020/javascript-array-search/">
+        <div class="card h-100 single-post-card shadow-effect bg-faded-light border">
+            <div class="card-body">
+                <h3 class="fw-medium post-title">JavaScript Array Search</h3>
+                
+
+                <p class="post-meta">
+                    <span class="post-meta text-muted">
+  
+  
+
+  December 31, 2023
+
+  
+
+  
+
+  
+
+  
+</span>
+
+                </p>
+                
+
+                <div class="post-entry">
+                    
+                    Hướng dẫn cách sử dụng các phương thức tìm kiếm mảng trong JavaScript để tìm kiếm phần tử trong mảng.
+
+                    
+                </div>
+
+                <div class="read-more-section">
+                    
+                    <h6 class="text-muted link-underline">Đọc thêm <i class="bi bi-arrow-right"></i></h6>
+                </div>
+            </div>
+
+            
+            <img src="/img/posts/img-20_hu9909909371105711545.png" alt="/img/posts/img-20.png"
+                class="card-img-bottom img-fluid lazyload">
+            
+
+            
+        </div>
+    </a>
+</div>
+
+
+      
+    </div>
+  </div>
+  
+  
+
+  
+
+</div>
+
+    
+
+
+<footer>
+
+  <div class="container">
+    <div class="row">
+      <div class="col-md-12">
+        <ul
+          class="list-inline list-group list-group-horizontal text-center footer-links d-flex justify-content-center flex-row">
+
+          
+          <li>
+            <a href="mailto:minh732002@gmail.com" title="Email me" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-envelope"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.facebook.com/username" title="Facebook" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-facebook"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/username" title="GitHub" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-github"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://twitter.com/username" title="Twitter" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-twitter-x"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.instagram.com/username" title="Instagram" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-instagram"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://www.youtube.com/user/username" title="Youtube" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-youtube"></i>
+              </span>
+            </a>
+          </li>
+          <li>
+            <a href="https://telegram.me/username" title="Telegram" target="_blank">
+              <span class="mx-2">
+                <i class="bi bi-telegram"></i>
+              </span>
+            </a>
+          </li>
+          
+        </ul>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-12">
+        <p class="credits copyright text-muted">
+          
+          
+          <a href="https://www.binovarghese.com/">Minh Le</a>
+          
+          
+
+          &nbsp;&bull;&nbsp;&copy;
+          
+          2025
+          
+
+          
+          &nbsp;&bull;&nbsp;
+          <a href="http://localhost:1313/">Blog_Aboul</a>
+          
+        </p>
+        
+        <p class="credits theme-by text-muted">
+          Powered by <a href="https://gohugo.io">Hugo</a> & <a href="https://github.com/binokochumolvarghese/lightbi-hugo">Lightbi.</a>&nbsp; Made with ❤ by <a href="https://binovarghese.com">Bino</a>
+          
+        </p>
+      </div>
+    </div>
+  </div>
+</footer><script src="http://localhost:1313/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+<script src="http://localhost:1313/js/highlight.min.js"></script>
+<script> hljs.initHighlightingOnLoad(); </script>
+<script> 
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("pre.chroma").forEach(function (element) {
+    element.style.padding = "0";
+  });
+});
+ </script>
+
+    
+  </body>
+</html>
+
